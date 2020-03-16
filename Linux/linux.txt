@@ -1,0 +1,24 @@
+1. 
+2. Az X11 a legelterjettebb grafikus felületet biztosító keretrendszer. Desktop Environment-ből jóval több van, például: KDE, Cinnamon, MATE, XFCE.
+3. Standard Input: alapértelmezett beviteli eszköz, vagyis a billentyűzet; a Standard Output pedig az alapértelmezett kiviteli eszköz, vagyis a monitor.
+4. A daemon-ok háttérben futó szolgáltatások, amik nem jelennek meg a "Tálcán", jellemzően Terminálból kezelhetőek. Ilyen például a ssh daemon, ami a beérkező ssh kapcsolatokat figyeli, amennyiben be van konfigurálva az ssh szerver a gépünkön.
+5.
+  /bin: rendszer működéséhez szükséges programokat, például: bash, cp, mv, chmod, grep, gzip, kill, nano
+  /etc: konfuigurációs- és rendszerfájlok, például: hosts, passwd, shadow
+  /usr: felhasználóhoz köthető fájlok, de nem a Home könyvtára
+  /home: máshogy hivatkozva: ~ (tilde), a felhasználó home könyvtára, ahol a dokumentumok, képek, letöltések alapértelmezetten tárolódnak
+6. Rejtett fájlokat jelölnek a ponttal kezdődő fájlnevű fájlok.
+7.
+  Relatív: ./Downloads/Ubuntu/18.04_LTS/
+  Abszolút: /home/viktor/Downloads/Ubuntu/18.04_LTS/
+8. touch zeta-szakaszzaro
+9. echo 'Hello' >> zeta-szakaszzaro
+10. mv zeta-szakaszzaro feladat
+11. cp feladat 'feladat 2' // vagy: cp feladat feladat\ 2
+12. rm 'feladat 2' // vagy: rm feladat\ 2
+13. cat feladat
+14. cat /var/log/syslog | grep NetworkManager
+15.
+  ls /etc/systemd
+  ifconfig
+  sudo apt install mysql-server
